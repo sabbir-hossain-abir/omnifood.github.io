@@ -24,7 +24,7 @@
         margin-left: 10%;
     }
     .works-step {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .steps-box {
         margin-top: 10px;
@@ -37,6 +37,31 @@
     }
     .app-screen {
         width: 50%;
+    }
+    .btn-app img {
+        height: 40px;
+        width: auto;
+        margin-top: -10px;
+    }
+    .icon-small {
+        width: 15px;
+    }
+    .city-feature {
+        font-size: 90%;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .plan-box ul li {
+        padding-bottom: 15px;
+        font-size: 80%;
+    }
+    .contact-form {
+        width: 80%;
     }
 }
 
