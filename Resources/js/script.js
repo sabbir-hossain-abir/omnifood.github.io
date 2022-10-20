@@ -85,5 +85,21 @@ $(document).ready(function () {
     }, {
         offset: '50%'
     });
+  
+  /*-- Mobile Nav --*/
+  $('.js--mobile-nav-icon').click(function () {
+    var nav = $('.js--main-nav');
+    var iconOC = $('.js--mobile-nav-icon i');
+
+    nav.slideToggle(200);
+
+    if (iconOC.hasClass('ion-navicon-round')) {
+      iconOC.addClass('ion-close-round');
+      iconOC.removeClass('ion-navicon-round');
+    } else {
+      iconOC.addClass('ion-navicon-round');
+      iconOC.removeClass('ion-close-round');
+    }
+  });
 
 });
