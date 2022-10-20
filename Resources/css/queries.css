@@ -8,6 +8,9 @@
     .row {
         padding: 0 2%;
     }
+    .mobile-nav-icon i{
+        display: none;
+    }
 }
 
 
@@ -73,7 +76,7 @@
     }
 
     section {
-        padding: 30px 10px;
+        padding: 30px 0;
     }
 
     .logo{
