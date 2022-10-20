@@ -239,13 +239,14 @@ header {
 
 .main-nav li {
     display: inline-block;
+    margin-left: 40px;
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0px;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 5px;
     color: white;
     text-transform: uppercase;
     font-size: 90%;
@@ -256,6 +257,20 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+/* ------ Mobile Nav ------ */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: white;
 }
 
 /* ------ Sticky Nav ------ */
@@ -288,19 +303,6 @@ header {
     display: block;
 }
 
-/* ------ Mobile Nav ------ */
-
-.mobile-nav-icon {
-    float: right;
-    margin-top: 30px;
-    cursor: pointer;
-    display: none;
-}
-
-.mobile-nav-icon i {
-    font-size: 200%;
-    color: white;
-}
 
 /* -------------------------------------------*/
 /* Meals */
